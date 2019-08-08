@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
                 <Link to={`/works/${work.slug}`}>{work.title}</Link>
               </h6>
               <div className="card__description">
-                <p>{work.excerpt}</p>
+                <p>{work.excerpt}!!!</p>
               </div>
             </figcaption>
           </figure>
